@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #0f172a, #1e1b4b);
+}
+
+[data-panel] {
+    display: flex;
+    flex-direction: column;
+}
+
+[data-panel-resize-handle] {
+    background-color: rgba(99, 102, 241, 0.2);
+    width: 2px;
+    transition: all 0.2s ease;
+}
+
+[data-panel-resize-handle]:hover {
+    background-color: rgb(99, 102, 241);
+    box-shadow: 0 0 8px rgba(99, 102, 241, 0.5);
+}
+
+[data-panel-group][data-panel-group-direction="horizontal"] > [data-panel-resize-handle] {
+    width: 2px;
+    margin: 0 -1px;
+}
+
+[data-panel-group][data-panel-group-direction="vertical"] > [data-panel-resize-handle] {
+    height: 2px;
+    margin: -1px 0;
+}
+
+.monaco-editor {
+    padding-top: 0.5rem;
+}
