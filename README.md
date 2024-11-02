@@ -84,4 +84,4 @@ Este proyecto está bajo la Licencia MIT.
 Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarnos.
 
 ---
-Hecho con ❤️ por PeralStudio
+PeralStudio
