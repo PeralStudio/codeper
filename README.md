@@ -3,6 +3,10 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/tuusuario/codeper)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+<div align="center">
+  <img src="/Captura.png" alt="CodePer Logo" height="auto"/>
+</div>
+
 CodePer es una plataforma web moderna que permite a desarrolladores compartir, ejecutar y experimentar con código en HTML, CSS y JavaScript en tiempo real. Perfecta para prototipado rápido, demostraciones de código y aprendizaje colaborativo.
 
 ## ✨ Características
